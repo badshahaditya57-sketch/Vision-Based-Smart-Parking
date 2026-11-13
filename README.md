@@ -12,6 +12,8 @@ This architecture is specifically designed for deployment on resource-constraine
 
 ---
 
+Web URL: **https://vision-based-smart-parking-np9xyckqnkdgepkuva8gx6.streamlit.app/**
+
 ## 1. Motivation and Research Rationale
 The deployment of smart parking infrastructure is often bottlenecked by hardware costs and inference latency. Transmitting high-definition video feeds to centralized cloud servers for neural network inference introduces network dependency, high bandwidth costs, and privacy concerns. Conversely, deploying CNNs directly on edge cameras requires expensive localized AI accelerators.
 
