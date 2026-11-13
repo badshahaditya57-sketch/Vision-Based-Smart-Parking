@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+raw_dataset/
+processed_data/
+train/
+*.zip
