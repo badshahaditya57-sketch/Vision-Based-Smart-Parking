@@ -1,3 +1,0 @@
-# Extra dependencies for evaluate.py / benchmark_latency.py (not needed by the Streamlit app)
--r requirements.txt
-matplotlib
