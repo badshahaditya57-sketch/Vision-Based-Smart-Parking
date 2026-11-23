@@ -1,8 +1,0 @@
-streamlit
-opencv-python-headless
-scikit-image
-scikit-learn
-numpy
-joblib
-pandas
-plotly
