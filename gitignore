@@ -1,9 +1,0 @@
-venv/
-.venv/
-__pycache__/
-raw_dataset/
-processed_data/
-train/
-*.zip
-# cached HOG matrices are large and re-computable
-results/cache/
