@@ -1,0 +1,4 @@
+# Install after requirements.txt for evaluation and benchmarking
+-r requirements.txt
+matplotlib
+threadpoolctl

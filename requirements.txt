@@ -1,0 +1,9 @@
+# Streamlit application dependencies
+streamlit
+opencv-python-headless
+numpy
+pandas
+scikit-image
+scikit-learn
+joblib
+plotly
