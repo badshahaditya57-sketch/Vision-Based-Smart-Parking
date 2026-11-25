@@ -9,7 +9,7 @@ The project compares a lightweight Convolutional Neural Network (CNN) against th
 
 It includes dataset preprocessing, date-grouped cross-validation, model comparison, error analysis, bootstrap confidence intervals, and a Streamlit inference dashboard.
 
-Link: **[https://vision-based-smart-parking-np9xyckqnkdgepkuva8gx6.streamlit.app/]*
+Link: *[https://vision-based-smart-parking-np9xyckqnkdgepkuva8gx6.streamlit.app/]*
 
 ---
 
