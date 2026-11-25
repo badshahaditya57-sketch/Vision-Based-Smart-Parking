@@ -1,0 +1,74 @@
+
+# ==========================================
+# Python virtual environments
+# ==========================================
+.venv/
+.venv_test/
+venv/
+env/
+
+# ==========================================
+# Python cache and compiled files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+.streamlit/secrets.toml
+
+# ==========================================
+# IDE and operating system files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Local datasets
+# ==========================================
+data/
+
+# ==========================================
+# Generated experiment outputs
+# Ignore everything by default
+# ==========================================
+outputs/*
+
+# Keep final CNN deployment model
+!outputs/cnn_final/
+outputs/cnn_final/*
+!outputs/cnn_final/final_model.pth
+!outputs/cnn_final/training_config.json
+
+# Keep fair model comparison results
+!outputs/fair_model_comparison/
+outputs/fair_model_comparison/*
+!outputs/fair_model_comparison/summary_metrics.csv
+!outputs/fair_model_comparison/pooled_metrics.csv
+!outputs/fair_model_comparison/per_class_metrics.csv
+!outputs/fair_model_comparison/confusion_matrices.csv
+!outputs/fair_model_comparison/experiment_config.json
+
+# Keep bootstrap analysis results
+!outputs/bootstrap_analysis/
+outputs/bootstrap_analysis/*
+!outputs/bootstrap_analysis/bootstrap_summary.csv
+!outputs/bootstrap_analysis/paired_comparisons.csv
+!outputs/bootstrap_analysis/experiment_config.json
+
+# ==========================================
+# Temporary and log files
+# ==========================================
+*.log
+*.tmp
+*.bak
+*.swp
