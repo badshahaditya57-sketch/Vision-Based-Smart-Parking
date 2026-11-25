@@ -9,7 +9,7 @@ The project compares a lightweight Convolutional Neural Network (CNN) against th
 
 It includes dataset preprocessing, date-grouped cross-validation, model comparison, error analysis, bootstrap confidence intervals, and a Streamlit inference dashboard.
 
-> **Important:** This project classifies individual parking-space image crops. It does not currently detect parking-space boundaries or automatically analyze a complete CCTV scene.
+Link: **[https://vision-based-smart-parking-np9xyckqnkdgepkuva8gx6.streamlit.app/]*
 
 ---
 
