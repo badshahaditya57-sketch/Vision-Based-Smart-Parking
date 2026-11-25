@@ -1,0 +1,22 @@
+{
+    "class_names": [
+        "empty",
+        "occupied"
+    ],
+    "image_width": 64,
+    "image_height": 128,
+    "epochs": 9,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW",
+    "loss": "Class-weighted CrossEntropyLoss",
+    "random_seed": 42,
+    "training_samples": 3991,
+    "class_counts": {
+        "empty": 1999,
+        "occupied": 1992
+    },
+    "unique_dates": 98,
+    "training_strategy": "Full-dataset training for fixed 9 epochs; epoch count selected using median CV best epoch."
+}

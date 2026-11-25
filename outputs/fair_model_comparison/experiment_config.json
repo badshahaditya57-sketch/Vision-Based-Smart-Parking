@@ -1,0 +1,23 @@
+{
+  "python": "3.12.10",
+  "scikit_learn": "1.9.1",
+  "pytorch": "2.15.0+cpu",
+  "samples": 3991,
+  "feature_dimensions": 3780,
+  "unique_dates": 98,
+  "outer_folds": 5,
+  "inner_validation_size": 0.2,
+  "seed": 42,
+  "grouping": "date",
+  "training_protocol": "Classical models trained on the exact inner training partitions used by the CNN. All models evaluated on identical outer date-grouped test folds.",
+  "classical_hyperparameters": "Fixed configurations inherited from evaluate.py. No outer-test hyperparameter tuning.",
+  "cnn_predictions_source": "C:\\Users\\badsh\\Vision-Based-Smart-Parking\\outputs\\cnn_date_cv\\oof_predictions.csv",
+  "cnn_fold_assignments_verified": true,
+  "limitations": [
+    "CNN training time is not included in this comparison.",
+    "Classical models use fixed hyperparameters.",
+    "CNN uses validation-based early stopping.",
+    "Inference timing is a single-run diagnostic.",
+    "Results are based on one dataset."
+  ]
+}

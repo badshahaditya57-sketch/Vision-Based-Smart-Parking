@@ -1,0 +1,3 @@
+comparison,metric,observed_difference,confidence_level,ci_lower,ci_upper,bootstrap_repetitions
+Lightweight CNN - HOG + Random Forest,accuracy,0.03933851165121527,0.95,0.028033177010428394,0.05187212509825609,5000
+Lightweight CNN - HOG + Random Forest,macro_f1,0.03930430626594361,0.95,0.028310128455213454,0.05210710665085292,5000

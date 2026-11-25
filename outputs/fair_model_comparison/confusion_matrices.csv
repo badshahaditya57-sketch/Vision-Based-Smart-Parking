@@ -1,0 +1,17 @@
+model,true_class,predicted_class,count
+Lightweight CNN,empty,empty,1854
+Lightweight CNN,empty,occupied,145
+Lightweight CNN,occupied,empty,15
+Lightweight CNN,occupied,occupied,1977
+HOG + Linear SVM,empty,empty,1820
+HOG + Linear SVM,empty,occupied,179
+HOG + Linear SVM,occupied,empty,215
+HOG + Linear SVM,occupied,occupied,1777
+HOG + Random Forest,empty,empty,1823
+HOG + Random Forest,empty,occupied,176
+HOG + Random Forest,occupied,empty,141
+HOG + Random Forest,occupied,occupied,1851
+HOG + Logistic Regression,empty,empty,1841
+HOG + Logistic Regression,empty,occupied,158
+HOG + Logistic Regression,occupied,empty,191
+HOG + Logistic Regression,occupied,occupied,1801
