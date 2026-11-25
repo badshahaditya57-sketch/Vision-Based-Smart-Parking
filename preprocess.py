@@ -13,8 +13,8 @@ from common import CLASS_NAMES, frame_id_from_name, parse_image_name, standardiz
 def label_from_category(name):
     """Return 0=empty, 1=occupied; reject ambiguous labels."""
     normalized = str(name).strip().lower().replace("-", "_").replace(" ", "_")
-    empty_names = {"empty", "vacant", "available", "free"}
-    occupied_names = {"occupied", "full", "taken"}
+    empty_names = {"empty", "vacant", "available", "free", "space_empty"}
+    occupied_names = {"occupied", "full", "taken", "space_occupied"}
     if normalized in empty_names:
         return 0
     if normalized in occupied_names:

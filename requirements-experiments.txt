@@ -1,4 +1,8 @@
-# Install after requirements.txt for evaluation and benchmarking
+
+# Core project dependencies
 -r requirements.txt
+
+# Evaluation, benchmarking and image analysis
 matplotlib
 threadpoolctl
+Pillow
